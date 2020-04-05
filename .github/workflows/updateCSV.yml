@@ -54,6 +54,7 @@ jobs:
     - name: Recreate CSV, JSON and GeoJSON and push them
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ISSUE_REPO_NAME: repo::${GITHUB_REPOSITORY}
       working-directory:
         _data/machgen/
       run: |
