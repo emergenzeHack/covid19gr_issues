@@ -61,6 +61,7 @@ jobs:
         mkdir -m 700 ~/.ssh
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_ed25519
         chmod 0600 ~/.ssh/id_ed25519
+        cat ~/.ssh/id_ed25519
         pushurl="git@github.com:$(git config --local remote.origin.url | sed 's;^https://github\.com/;;')"
         git config remote.origin.pushurl "$pushurl"
         git fetch origin
