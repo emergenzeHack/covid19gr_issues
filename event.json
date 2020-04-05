@@ -1,10 +1,15 @@
 {
-  "action": "unlabeled",
+  "action": "edited",
+  "changes": {
+    "body": {
+      "from": "<pre><yamldata>\r\nEmail: matteo.fortini@gmail.com\r\nNome: Matteo\r\nNotas_Legais: OK\r\nO_que: prova\r\nlocation: 39.640665 -8.756104 0 0\r\n</yamldata></pre>"
+    }
+  },
   "issue": {
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "<pre><yamldata>\nEmail: matteo.fortini@gmail.com\nNome: Matteo\nNotas_Legais: OK\nO_que: prova\nOnde: 39.640665 -8.756104 0 0\n</yamldata></pre>",
+    "body": "<pre><yamldata>\r\nEmail: foo@gmail.com\r\nNome: Foo\r\nNotas_Legais: OK\r\nO_que: prova\r\nlocation: 39.640665 -8.756104 0 0\r\n</yamldata></pre>",
     "closed_at": null,
     "comments": 0,
     "comments_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/issues/2/comments",
@@ -14,31 +19,13 @@
     "id": 593453657,
     "labels": [
       {
-        "color": "ededed",
+        "color": "f9d0c4",
         "default": false,
-        "description": null,
-        "id": 1959096299,
-        "name": "Missing position",
-        "node_id": "MDU6TGFiZWwxOTU5MDk2Mjk5",
-        "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/labels/Missing%20position"
-      },
-      {
-        "color": "ededed",
-        "default": false,
-        "description": null,
-        "id": 1959096301,
-        "name": "ajuda",
-        "node_id": "MDU6TGFiZWwxOTU5MDk2MzAx",
-        "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/labels/ajuda"
-      },
-      {
-        "color": "ededed",
-        "default": false,
-        "description": null,
-        "id": 1959096300,
-        "name": "form",
-        "node_id": "MDU6TGFiZWwxOTU5MDk2MzAw",
-        "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/labels/form"
+        "description": "",
+        "id": 1962337655,
+        "name": "accepted",
+        "node_id": "MDU6TGFiZWwxOTYyMzM3NjU1",
+        "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/labels/accepted"
       }
     ],
     "labels_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/issues/2/labels{/name}",
@@ -49,7 +36,7 @@
     "repository_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues",
     "state": "open",
     "title": "ajuda",
-    "updated_at": "2020-04-03T15:54:56Z",
+    "updated_at": "2020-04-05T10:47:36Z",
     "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/issues/2",
     "user": {
       "avatar_url": "https://avatars3.githubusercontent.com/u/62019251?v=4",
@@ -71,15 +58,6 @@
       "type": "User",
       "url": "https://api.github.com/users/ehack-italy"
     }
-  },
-  "label": {
-    "color": "96db69",
-    "default": false,
-    "description": "",
-    "id": 1959099495,
-    "name": "aprovado",
-    "node_id": "MDU6TGFiZWwxOTU5MDk5NDk1",
-    "url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/labels/aprovado"
   },
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/9900828?v=4",
@@ -147,8 +125,8 @@
     "name": "covid19pt_issues",
     "node_id": "MDEwOlJlcG9zaXRvcnkyNTI2ODE4NzI=",
     "notifications_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/notifications{?since,all,participating}",
-    "open_issues": 1,
-    "open_issues_count": 1,
+    "open_issues": 2,
+    "open_issues_count": 2,
     "owner": {
       "avatar_url": "https://avatars1.githubusercontent.com/u/9900828?v=4",
       "events_url": "https://api.github.com/users/emergenzeHack/events{/privacy}",
@@ -171,9 +149,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/pulls{/number}",
-    "pushed_at": "2020-04-03T15:50:11Z",
+    "pushed_at": "2020-04-05T10:38:04Z",
     "releases_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/releases{/id}",
-    "size": 26,
+    "size": 22,
     "ssh_url": "git@github.com:emergenzeHack/covid19pt_issues.git",
     "stargazers_count": 0,
     "stargazers_url": "https://api.github.com/repos/emergenzeHack/covid19pt_issues/stargazers",
@@ -190,23 +168,23 @@
     "watchers_count": 0
   },
   "sender": {
-    "avatar_url": "https://avatars1.githubusercontent.com/u/14352721?v=4",
-    "events_url": "https://api.github.com/users/avivace/events{/privacy}",
-    "followers_url": "https://api.github.com/users/avivace/followers",
-    "following_url": "https://api.github.com/users/avivace/following{/other_user}",
-    "gists_url": "https://api.github.com/users/avivace/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1104926?v=4",
+    "events_url": "https://api.github.com/users/mfortini/events{/privacy}",
+    "followers_url": "https://api.github.com/users/mfortini/followers",
+    "following_url": "https://api.github.com/users/mfortini/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mfortini/gists{/gist_id}",
     "gravatar_id": "",
-    "html_url": "https://github.com/avivace",
-    "id": 14352721,
-    "login": "avivace",
-    "node_id": "MDQ6VXNlcjE0MzUyNzIx",
-    "organizations_url": "https://api.github.com/users/avivace/orgs",
-    "received_events_url": "https://api.github.com/users/avivace/received_events",
-    "repos_url": "https://api.github.com/users/avivace/repos",
+    "html_url": "https://github.com/mfortini",
+    "id": 1104926,
+    "login": "mfortini",
+    "node_id": "MDQ6VXNlcjExMDQ5MjY=",
+    "organizations_url": "https://api.github.com/users/mfortini/orgs",
+    "received_events_url": "https://api.github.com/users/mfortini/received_events",
+    "repos_url": "https://api.github.com/users/mfortini/repos",
     "site_admin": false,
-    "starred_url": "https://api.github.com/users/avivace/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/avivace/subscriptions",
+    "starred_url": "https://api.github.com/users/mfortini/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mfortini/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/avivace"
+    "url": "https://api.github.com/users/mfortini"
   }
 }
