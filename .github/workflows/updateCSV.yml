@@ -54,12 +54,12 @@ jobs:
     - name: Recreate CSV, JSON and GeoJSON and push them
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ISSUE_REPO_NAME: repo::${GITHUB_REPOSITORY}
       working-directory:
         _data/machgen/
       run: |
         mkdir -m 700 ~/.ssh
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_ed25519
+        echo ::set-env name=ISSUE_REPO_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
         chmod 0600 ~/.ssh/id_ed25519
         pushurl="git@github.com:$(git config --local remote.origin.url | sed 's;^https://github\.com/;;')"
         git config remote.origin.pushurl "$pushurl"
